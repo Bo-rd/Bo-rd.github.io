@@ -11,10 +11,9 @@
 <body>
     <div class="headerContainer">
         <nav class="navHeader">
-            <div>Home</div>
-            <div>thing 1</div>
-            <div>thing 2</div>
-            <div>thing 3</div>
+            <a href="#PersonalLifeID">Personal Life</a>
+            <a href="#ProfessionalLifeID">Professional</a>
+            <a href="#ProjectsID">Projects</a>
         </nav>
 
         <header class="pfpName">
@@ -23,7 +22,7 @@
         </header>
     </div>
 
-    <section class="aboutMe">
+    <section class="aboutMe" id="PersonalLifeID">
 
         <div id="aboutMeText">
             Personal Life
@@ -32,19 +31,22 @@
         
         <div class="aboutMeThings">
             <div>
-                <p>Thing 1</p>
+                <p>My wife</p>
+                <p class="projectText">Last year I got married to my wife, Ivy. She is the best thing in my life and without her I would not be able to do half the things I am doing now. She is the most amazing person I know.</p>
             </div>
             <div>
-                <p>Thing 2</p>
+                <p>Mechanical Keyboards</p>
+                <p class="projectText">I am obsessed with building and tweaking custom mechanical keyboards for computers. If I could spend all of my time and money on just building and using keyboards I would.</p>
             </div>
             <div>
-                <p>Thing 3</p>
+                <p>Videogames</p>
+                <p class="projectText">When I am not able to build any keyboards I am most likely playing videogames. I love roguelikes and overall chill games. Not much of a competitive guy.</p>
             </div>
         </div>
 
     </section>
 
-    <section class="aboutMe">
+    <section class="aboutMe" id="ProfessionalLifeID">
 
         <div id="aboutMeText">
             Professional Life
@@ -53,17 +55,50 @@
         
         <div class="aboutMeThings">
             <div>
-                <p>Thing 1</p>
+                <p>Service First Products</p>
+                <p class="projectText">This is where I work currently and where I have worked for the past year or so. This company is very small and has allowed me to really grow as a programmer due to them essentially giving me free reign to learn and design whatever I feel would benefit the company. I have been able to write a ton of cool programs for them.</p>
             </div>
             <div>
-                <p>Thing 2</p>
+                <p>UVU Student</p>
+                <p class="projectText">I am a computer science student at UVU and am about halfway done with my degree as of now. I am super stoked to graduate and really start my career as a developer.</p>
             </div>
             <div>
-                <p>Thing 3</p>
+                <p>Goals</p>
+                <p class="projectText">As of now I am really enjoying Web Development and Python development. I think I would really enjoy persuing a career in both of those areas. I also would love to be able to make my own personal projects such as a videogame.</p>
             </div>
         </div>
 
     </section>
+
+    <section id="ProjectsID">
+        <h1 id="projectsHeader">Projects</h1>
+        <div class="ProjectThings">
+            <div id="shipping">
+                <p class="projectTitle">Shopify Shipping Program</p>
+                <p class="projectText">I currently work for a flagpole business as the operations manager and sole developer. I wrote a python program to take all of the orders from all their sites and consolidate them into their shipping software</p>
+            </div>
+            <div id="palindrome">
+                <p>Assembly Palindrome Detector</p>
+                <p class="projectText">For one of my classes I had the opportunity to write a program in LC3 Assembly language that takes a string and reverses it. It then detects whether or not the word is a palindrome</p>
+            </div>
+            <div id="receipt">
+                <p>C++ Receipt generator</p>
+                <p class="projectText">For another class I wrote a program in C++ that takes in data for customers and customer order information and generates nice looking receipts. </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://github.com/Bo-rd">
+            <img alt="Github link" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            width=50" height="50">
+        </a>
+        
+        <a href="mailto:sethjbird@gmail.com">
+            <img alt="Mail link" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png"
+            width=50" height="50">
+        </a>
+    </footer>
 
 </body>
 </html>
